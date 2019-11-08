@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es_MX" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>animacion</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/grid_flex.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    -->
+  </head>
+  <body>
+    <header>
+      <nav id="myTopnav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img width="15px" height="15px" src="./img/icon.png" alt="">
+          </a>
+          <span>
+            <li><a href="./QuienSoy.html">QuienSoy</a></li>
+            <li><a href="./animacion.html">animacion</a></li>
+            <li><a href="./comics.html">comics</a></li>
+            <li><a href="./horario.html">horario</a></li>
+          </span>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>animacion</h2>
+
+        <p>
+          Soy un gran consumidor de la animacion, tanto oriental como occidental. En general prefiero los slice of life, dramas y comedias.
+        </p>
+        <p>
+          Un dato curioso es como mi gusto por el cine surgio justamente, al empezar a intentar analzar estas series de animacion y ver como los distintos medios audiovisuales tienen formas tan distintas de contar una historia lo que me facino al instante.
+        </p>
+        <p>
+          Aqui se encuentra un video obtenido del Canal iLuTv en Youtube sobre el terror en la animacion japonesa.
+        </p>
+
+        <video class="videoFluid" controls>
+          <source src="./video/videoplayback.mp4" type="video/mp4">
+        </video>
+      </section>
+    </main>
+    <footer>
+      <a href="mailto:Bhdzhdz@gmail.com?subject=feedback">Bhdzhdz@gmail.com</a>
+    </footer>
+  </body><script type="text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "") {
+        x.className += " responsive";
+    } else {
+        x.className = "";
+    }
+}
+</script>
+</html>
